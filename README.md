@@ -20,7 +20,6 @@ There are two kinds of attacks -
    
 There were two parts in this project-
 1. Generating adversarial images using different attack methods
-
 An inceptionv3 model, pretrained on the ImageNet dataset has been used. An image is 
 fed and is classified as an Egyptian cat by the model. The probability(confidence) of 
 classification for this label is .701695. To this image, noise is added, generating 

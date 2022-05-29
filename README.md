@@ -28,8 +28,11 @@ There were two parts in this project-
    adversarial images by different attack methods.
       a. Fast Gradient Sign method - The value of epsilon is chosen as 0.02. The sign of the gradient of the loss function is calculated with respect to the input                                        image. The input image is modified according to the formula to generate the adversarial image. This is then fed to the model                                        and is classified. Different values of epsilon are used to see how the classification and confidence varies as we increase the 
                                      perturbations.
+                                     
       b. One step target class method - The leopard class in the ImageNet Dataset is chosen as the target class. Different values of epsilon - 0.002, 0.01, 0.15,                                           0.5 are chosen.
+      
       c. Basic Iterative method - The number of iterations chosen is 5 and in each iteration, we add some perturbation to the image. This generates the final                                         adversarial image. 
+      
       d. Iterative Target Class Method - The target class is ostrich. The value of epsilon chosen is 0.25 and the number of iterations is 5. 
 
 2. Quantifying how similar two images are 
